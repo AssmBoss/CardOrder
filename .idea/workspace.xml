@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3114679-73b5-4bfc-9f62-73641c0df5cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/cardorder/CardOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/cardorder/CardOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/cardorder/CardOrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,7 +60,7 @@
       <recent name="C:\Users\home\IdeaProjects\CardOrder" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CardOrderTest (1)">
+  <component name="RunManager" selected="Gradle.CardOrderTest.shouldGetSuccessMessageAfterCorrectFilling">
     <configuration name="CardOrderTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CardOrderTest (1)" />
         <item itemvalue="Gradle.CardOrderTest.shouldGetSuccessMessageAfterCorrectFilling" />
+        <item itemvalue="Gradle.CardOrderTest (1)" />
       </list>
     </recent_temporary>
   </component>

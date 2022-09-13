@@ -18,12 +18,11 @@ public class CardOrderTest {
         SelenideElement form = $("[enctype='application/x-www-form-urlencoded']");
         form.$("[name='name']").setValue("Иван Иванов");
         form.$("[name='phone']").setValue("+89991234567");
-        //form.$(".checkbox__control").click();
         form.$(".checkbox__box").click();
+        //Selenide.sleep(10000);
         form.$(".button").click();
         Selenide.sleep(1000);
         $("[data-test-id=order-success]").shouldHave(Condition.exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
-        //Thread.sleep(10000);
-        //Selenide.sleep(10000);
+
     }
 }
