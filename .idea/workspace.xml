@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3114679-73b5-4bfc-9f62-73641c0df5cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/cardorder/CardOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/cardorder/CardOrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,8 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "C:/Users/home/IdeaProjects/CardOrder/src/test/java",
-    "last_opened_file_path": "C:/Users/home/IdeaProjects/CardOrder"
+    "last_opened_file_path": "C:/Users/home/IdeaProjects/CardOrder",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,7 +60,7 @@
       <recent name="C:\Users\home\IdeaProjects\CardOrder" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CardOrderTest.shouldGetSuccessMessageAfterCorrectFilling">
+  <component name="RunManager" selected="Gradle.CardOrderTest (1)">
     <configuration name="CardOrderTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -106,10 +107,58 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="CardOrderTest.shouldGetWarningForIncorrectName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.cardorder.CardOrderTest.shouldGetWarningForIncorrectName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CardOrderTest.shouldGetWarningForIncorrectPhone" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.cardorder.CardOrderTest.shouldGetWarningForIncorrectPhone&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CardOrderTest.shouldGetSuccessMessageAfterCorrectFilling" />
         <item itemvalue="Gradle.CardOrderTest (1)" />
+        <item itemvalue="Gradle.CardOrderTest.shouldGetWarningForIncorrectPhone" />
+        <item itemvalue="Gradle.CardOrderTest.shouldGetWarningForIncorrectName" />
+        <item itemvalue="Gradle.CardOrderTest.shouldGetSuccessMessageAfterCorrectFilling" />
       </list>
     </recent_temporary>
   </component>
